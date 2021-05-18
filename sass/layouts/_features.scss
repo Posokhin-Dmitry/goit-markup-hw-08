@@ -1,0 +1,36 @@
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.features-list__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.features-list__content {
+  width: 270px;
+}
+
+.features-list__thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--background-icon-color);
+  border-radius: 4px;
+}
+
+.features-list__title {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
