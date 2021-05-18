@@ -1,14 +1,28 @@
 .filters-list {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   list-style: none;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+  }
 }
 
 .filters-list__item {
-  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
 
-  &:first-child {
+  &:last-child {
     margin-left: 0;
   }
 }
