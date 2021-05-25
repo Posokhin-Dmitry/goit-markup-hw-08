@@ -206,6 +206,7 @@ img {
   .modal {
     width: 528px;
     max-height: 581px;
+    overflow: hidden;
   }
 }
 
