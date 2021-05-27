@@ -1,4 +1,5 @@
 .header {
+  margin-bottom: -1px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -32,7 +33,7 @@
   @media screen and (min-width: 768px) {
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
   }
 }
 
@@ -43,6 +44,10 @@
 
 .header__pages {
   display: flex;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 30px;
+  }
 }
 
 .header__item {
@@ -80,5 +85,9 @@
   &:focus,
   &--current {
     color: var(--accent-color);
+  }
+
+  &--current {
+    padding-bottom: 30px;
   }
 }
