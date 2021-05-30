@@ -606,12 +606,6 @@ img {
   display: flex;
 }
 
-@media screen and (min-width: 768px) {
-  .header__pages {
-    margin-bottom: 30px;
-  }
-}
-
 .header__item {
   margin-left: 50px;
 }
@@ -621,6 +615,7 @@ img {
 }
 
 .header__link {
+  display: block;
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -646,10 +641,6 @@ img {
 
 .header__link:hover, .header__link:focus, .header__link--current {
   color: var(--accent-color);
-}
-
-.header__link--current {
-  padding-bottom: 30px;
 }
 
 .contacts {
